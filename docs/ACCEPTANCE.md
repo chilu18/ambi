@@ -1,0 +1,13 @@
+# Acceptance checks registered before testing
+- A live conversation returns a useful response and an optional draft proposal.
+- Only an explicit confirmation creates a saved decision and draft task.
+- A draft finishes server-side after navigation away; returning shows the result.
+- Refresh preserves the decision and draft for the signed-in user.
+- A second user cannot read or mutate the first user's state.
+- No operation sends email; review is recorded explicitly.
+- AI failures expose retry, and stale jobs recover without an endless spinner.
+- Sample mode is clearly labelled and does not call OpenAI or imply live generation.
+- Desktop/mobile layouts and keyboard controls work.
+- Typecheck, production build, domain tests and browser journey pass.
+- Public source contains no secrets or personal data; demo uses fictional inputs.
+- Public app/repository/video links are checked without permission prompts.

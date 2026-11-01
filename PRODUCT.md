@@ -1,0 +1,2 @@
+# ambi
+A hackathon web companion for independent workers: talk through a setback, explicitly agree one draft task, let the server prepare it, return and review. Persistent decisions are separate from model proposals. No autonomous sending, emotional diagnosis, hardware integration or scheduled monitoring in this release. Existing architecture diagrams are prior planning work; application implementation starts during the hackathon.

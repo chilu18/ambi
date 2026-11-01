@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T11:25:32.510356+00:00",
+  "title": "Design System: ambi",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(15% 0.004 105)",
+          "oklch(26% 0.006 105)",
+          "oklch(37% 0.010 105)",
+          "oklch(49% 0.012 105)",
+          "oklch(61% 0.012 105)",
+          "oklch(73% 0.010 105)",
+          "oklch(85% 0.006 105)",
+          "oklch(95% 0.002 105)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(26% 0.000 0)",
+          "oklch(37% 0.000 0)",
+          "oklch(49% 0.000 0)",
+          "oklch(61% 0.000 0)",
+          "oklch(73% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.012 181)",
+          "oklch(26% 0.020 181)",
+          "oklch(37% 0.032 181)",
+          "oklch(49% 0.040 181)",
+          "oklch(61% 0.040 181)",
+          "oklch(73% 0.032 181)",
+          "oklch(85% 0.020 181)",
+          "oklch(95% 0.008 181)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.006 157)",
+          "oklch(26% 0.010 157)",
+          "oklch(37% 0.016 157)",
+          "oklch(49% 0.020 157)",
+          "oklch(61% 0.020 157)",
+          "oklch(73% 0.016 157)",
+          "oklch(85% 0.010 157)",
+          "oklch(95% 0.004 157)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Teal",
+        "tonalRamp": [
+          "oklch(15% 0.027 172)",
+          "oklch(26% 0.045 172)",
+          "oklch(37% 0.072 172)",
+          "oklch(49% 0.090 172)",
+          "oklch(61% 0.090 172)",
+          "oklch(73% 0.072 172)",
+          "oklch(85% 0.045 172)",
+          "oklch(95% 0.018 172)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.004 147)",
+          "oklch(26% 0.007 147)",
+          "oklch(37% 0.012 147)",
+          "oklch(49% 0.015 147)",
+          "oklch(61% 0.015 147)",
+          "oklch(73% 0.012 147)",
+          "oklch(85% 0.007 147)",
+          "oklch(95% 0.003 147)"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Wash",
+        "tonalRamp": [
+          "oklch(15% 0.006 138)",
+          "oklch(26% 0.010 138)",
+          "oklch(37% 0.016 138)",
+          "oklch(49% 0.020 138)",
+          "oklch(61% 0.020 138)",
+          "oklch(73% 0.016 138)",
+          "oklch(85% 0.010 138)",
+          "oklch(95% 0.004 138)"
+        ]
+      },
+      "notebook": {
+        "role": "neutral",
+        "displayName": "Notebook",
+        "tonalRamp": [
+          "oklch(15% 0.004 110)",
+          "oklch(26% 0.006 110)",
+          "oklch(37% 0.010 110)",
+          "oklch(49% 0.012 110)",
+          "oklch(61% 0.012 110)",
+          "oklch(73% 0.010 110)",
+          "oklch(85% 0.006 110)",
+          "oklch(95% 0.002 110)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.018 172)",
+          "oklch(26% 0.030 172)",
+          "oklch(37% 0.048 172)",
+          "oklch(49% 0.060 172)",
+          "oklch(61% 0.060 172)",
+          "oklch(73% 0.048 172)",
+          "oklch(85% 0.030 172)",
+          "oklch(95% 0.012 172)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.030 170)",
+          "oklch(26% 0.050 170)",
+          "oklch(37% 0.080 170)",
+          "oklch(49% 0.100 170)",
+          "oklch(61% 0.100 170)",
+          "oklch(73% 0.080 170)",
+          "oklch(85% 0.050 170)",
+          "oklch(95% 0.020 170)"
+        ]
+      }
+    },
+    "shadows": [
+      {
+        "name": "toast",
+        "value": "0 8px 30px #163d3a20",
+        "purpose": "Transient feedback above the workspace."
+      }
+    ],
+    "motion": [
+      {
+        "name": "presence-pulse",
+        "value": "breathe 1.5s ease-in-out infinite",
+        "purpose": "Working presence; disabled for reduced motion."
+      },
+      {
+        "name": "working-spinner",
+        "value": "spin 1.2s linear infinite",
+        "purpose": "In-progress activity; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stacked",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The explicit next step.",
+      "html": "<button class=\"ds-primary\">Agree &amp; prepare draft</button>",
+      "css": ".ds-primary{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);background:var(--teal,#116b5d);color:white;border:0;border-radius:10px;padding:14px 18px;font-size:14px;font-weight:550;width:100%;cursor:pointer}.ds-primary:hover{background:#084d42}.ds-primary:focus-visible{outline:3px solid #178471;outline-offset:4px}"
+    },
+    {
+      "name": "Draft tool",
+      "kind": "button",
+      "refersTo": "button-tool",
+      "description": "Secondary draft action.",
+      "html": "<button class=\"ds-tool\">Copy</button>",
+      "css": ".ds-tool{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);border:1px solid #bccfc3;border-radius:8px;padding:9px 12px;background:white;font-size:12px;cursor:pointer}.ds-tool:hover{background:var(--wash,#e9f0e8)}.ds-tool:focus-visible{outline:3px solid #178471;outline-offset:4px}"
+    },
+    {
+      "name": "Proposal input",
+      "kind": "input",
+      "refersTo": "proposal-input",
+      "description": "An editable decision before agreement.",
+      "html": "<label class=\"ds-label\" for=\"ds-decision\">Edit your next step</label><textarea class=\"ds-input\" id=\"ds-decision\" rows=\"3\">Prepare a short email asking for feedback.</textarea>",
+      "css": ".ds-label{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);display:block;font-size:12px;font-weight:600;margin:0 0 9px}.ds-input{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);width:100%;resize:vertical;padding:14px;border:1px solid #b8cbbf;border-radius:10px;background:white;font-size:14px;line-height:1.6}.ds-input:focus-visible{outline:3px solid #178471;outline-offset:4px}"
+    },
+    {
+      "name": "User message",
+      "kind": "card",
+      "refersTo": "message-user",
+      "description": "Tonal grouping identifies the user\u2019s contribution.",
+      "html": "<article class=\"ds-message\"><strong>You</strong><p>I\u2019d like help writing a short email asking for feedback.</p></article>",
+      "css": ".ds-message{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);padding:15px 18px;background:var(--wash,#e9f0e8);border-radius:12px;max-width:65ch}.ds-message strong{font-size:11px;color:var(--muted,#53665f)}.ds-message p{font-size:15px;line-height:1.75;margin:7px 0 0}"
+    },
+    {
+      "name": "Mode label",
+      "kind": "chip",
+      "description": "An informational mode pill.",
+      "html": "<span class=\"ds-chip\">Sample journey</span>",
+      "css": ".ds-chip{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);font-size:13px;border:1px solid #b7cbc1;border-radius:99px;padding:6px 12px;display:inline-block;color:#285b4e}"
+    },
+    {
+      "name": "Brand navigation",
+      "kind": "nav",
+      "description": "The compact home link and circular identity mark.",
+      "html": "<a class=\"ds-brand\" href=\"#\"><svg width=\"31\" height=\"31\" viewBox=\"0 0 31 31\" aria-hidden=\"true\"><circle cx=\"15.5\" cy=\"15.5\" r=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"15.5\" cy=\"15.5\" r=\"4.5\" fill=\"currentColor\"/></svg>ambi</a>",
+      "css": ".ds-brand{font-family:'DM Sans',sans-serif;color:var(--ink,#163d3a);text-decoration:none;display:flex;align-items:center;gap:12px;font-size:32px;font-weight:650;letter-spacing:-1px}.ds-brand svg{color:var(--teal,#116b5d)}.ds-brand:focus-visible{outline:3px solid #178471;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A little space. A next step.",
+    "overview": "ambi inherits its teal identity from the existing diagrams and expresses it as a quiet, light workspace. A restrained serif opening gives way to readable sans-serif conversation and task content. The interface keeps a thought, an explicit decision, and a reviewable draft visually distinct.\n\nThe first surface pairs conversation with a next-step notebook. Its desktop split and mobile stack support the current journey without making that exact composition mandatory for every future screen. The implementation direction used recorded roll `seed:7e8cc4d22c6b38fd`; this is provenance, not a user-selected option.",
+    "keyCharacteristics": [
+      "Teal actions on warm off-white and white surfaces.",
+      "Serif invitation, sans-serif working content.",
+      "Quiet borders and tonal separation.",
+      "State communicated with text alongside color."
+    ],
+    "rules": [
+      {
+        "name": "The Action Teal Rule",
+        "body": "Use teal for the primary step and focus, keeping prose in ink and muted tones.",
+        "section": "colors"
+      },
+      {
+        "name": "The Working Voice Rule",
+        "body": "Reserve serif typography for the invitation and notebook empty state; use sans-serif for decisions, drafts, controls, and conversation.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Surface Rule",
+        "body": "Separate persistent regions with tone and borders; reserve elevation for transient feedback.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** retain teal actions, ink content, and muted supporting text.",
+      "**Do** pair status color with a written state.",
+      "**Do** preserve conversation-before-notebook reading order on small screens.",
+      "**Do** keep keyboard focus visible and respect reduced motion."
+    ],
+    "donts": [
+      "**Don't** add decorative grids or animated backgrounds.",
+      "**Don't** apply the workspace radius indiscriminately to every control.",
+      "**Don't** make draft creation or completion appear to mean a message was sent."
+    ]
+  }
+}
