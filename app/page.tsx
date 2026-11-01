@@ -277,16 +277,15 @@ export default function Home() {
                 >
                   Open my workspace <ArrowRight size={16} />
                 </button>
+              ) : !status.configured ? (
+                <span className="fine">Live AI setup is in progress.</span>
               ) : (
                 <a
                   className="text-button"
                   href="/signin-with-chatgpt?return_to=/"
                   target="_top"
                 >
-                  {status.signedIn
-                    ? "API key setup needed"
-                    : "Sign in for live AI"}{" "}
-                  <ArrowRight size={16} />
+                  Sign in for live AI <ArrowRight size={16} />
                 </a>
               )
             ) : (

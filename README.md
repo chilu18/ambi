@@ -4,6 +4,10 @@
 
 Built for the DevDay Exchange Community Hackathon, London, 1 November 2026.
 
+[Try the public sample](https://ambi-london-2026.heysalad-5703.chatgpt.site) · [Public source](https://github.com/chilu18/ambi)
+
+Current published status: sample journey verified; live OpenAI generation awaits API-key configuration and a real end-to-end check.
+
 ambi helps independent workers turn a difficult moment into one small, agreed next step. Talk through a setback, edit and confirm a proposed task, then let ambi prepare a draft for you to review. Your decision and result stay together when you return.
 
 ## One complete journey
